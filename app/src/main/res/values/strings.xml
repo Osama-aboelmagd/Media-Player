@@ -1,3 +1,14 @@
 <resources>
-    <string name="app_name">Media Player</string>
+
+    <string name="app_name">MUSICAL</string>
+    <string name="All_Song">All Songs</string>
+    <string name="Arabic">Arabic</string>
+    <string name="English">English</string>
+    <string name="Classic">Classic</string>
+    <string name="singer_name_text">Singer</string>
+    <string name="album_name_text">Album</string>
+    <string name="genres_name_text">Genres</string>
+    <string name="search">Search</string>
+
+
 </resources>

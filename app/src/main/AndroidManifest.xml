@@ -9,6 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".Search"
+                  android:label="@string/search"/>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -16,6 +18,19 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".AllSong"
+            android:label="@string/All_Song" />
+        <activity
+            android:name=".Arabic"
+            android:label="@string/Arabic" />
+        <activity
+            android:name=".English"
+            android:label="@string/English" />
+        <activity
+            android:name=".Classic"
+            android:label="@string/Classic" />
+
     </application>
 
 </manifest>
