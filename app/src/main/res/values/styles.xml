@@ -53,6 +53,8 @@
         <item name="android:color">#FFFFFF</item>
         <item name="android:layout_alignParentBottom">true</item>
         <item name="android:textSize">35sp</item>
+        <item name="android:textStyle">bold</item>
+
 
 
     </style>
@@ -79,10 +81,20 @@
     <style name="song_list_style">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">match_parent</item>
-        <item name="android:orientation">vertical</item>
+
+
+    </style>
+    <style name="list_item_text_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:textColor">@color/list_item_texts</item>
+
+
 
 
 
     </style>
+
 
 </resources>

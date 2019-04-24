@@ -15,16 +15,16 @@
             android:id="@+id/edit_text_view"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:hint="@string/search"
             android:inputType="text"
-            android:textColor="#000000"
-            android:layout_weight="1"/>
+            android:textColor="@color/edit_text_color" />
 
         <Button
             android:id="@+id/search_button_view"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Search"/>
+            android:text="Search" />
     </LinearLayout>
 
     <RelativeLayout style="@style/layout_style">
@@ -36,7 +36,8 @@
 
         <TextView
             style="@style/lay_out2"
-            android:text="@string/All_Song" />
+            android:text="@string/All_Song"
+            android:textColor="@color/main_cat_text_color2" />
     </RelativeLayout>
 
     <RelativeLayout style="@style/layout_style">
@@ -49,7 +50,7 @@
         <TextView
             style="@style/lay_out2"
             android:text="@string/English"
-            android:textColor="@color/main_cat_text" />
+            android:textColor="@color/main_cat_text_color1" />
 
     </RelativeLayout>
 
@@ -64,7 +65,7 @@
 
             style="@style/lay_out2"
             android:text="@string/Arabic"
-            android:textColor="@color/main_cat_text" />
+            android:textColor="@color/main_cat_text_color1" />
 
     </RelativeLayout>
 
@@ -77,7 +78,8 @@
 
         <TextView
             style="@style/lay_out2"
-            android:text="@string/Classic" />
+            android:text="@string/Classic"
+            android:textColor="@color/main_cat_text_color2" />
 
     </RelativeLayout>
 

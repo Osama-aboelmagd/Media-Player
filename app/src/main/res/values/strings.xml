@@ -5,10 +5,13 @@
     <string name="Arabic">Arabic</string>
     <string name="English">English</string>
     <string name="Classic">Classic</string>
-    <string name="singer_name_text">Singer</string>
-    <string name="album_name_text">Album</string>
-    <string name="genres_name_text">Genres</string>
-    <string name="search">Search</string>
+    <string name="singer_name_text">Singer: </string>
+    <string name="album_name_text">Album: </string>
+    <string name="genres_name_text">Genres: </string>
+    <string name="search">Search Here</string>
+    <string name="search_label">Search</string>
+    <string name="search_results">No Results</string>
+
 
 
 </resources>

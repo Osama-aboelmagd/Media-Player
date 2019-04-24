@@ -8,6 +8,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
 
+import java.util.ArrayList;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -66,13 +68,17 @@ public class MainActivity extends AppCompatActivity {
         });
         Button search = (Button) findViewById(R.id.search_button_view);
 
+
         search.setOnClickListener(new View.OnClickListener() {
             // The code in this method will be executed when the phrases category is clicked on.
             @Override
             public void onClick(View view) {
                 Intent searchIntent = new Intent(MainActivity.this, Search.class);
-
+                EditText search_target = (EditText) findViewById(R.id.edit_text_view);
+                String search_part = search_target.getText().toString();
+                searchIntent.putExtra("keyName", search_part);
                 startActivity(searchIntent);
+
             }
         });
     }
