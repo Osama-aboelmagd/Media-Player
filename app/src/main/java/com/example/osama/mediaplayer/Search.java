@@ -51,7 +51,6 @@ public class Search extends AppCompatActivity {
                     songs_search.add(songs.get(count));
                 }
                 count++;
-
             }
             SongAdapter adapter = new SongAdapter(this, songs_search);
             ListView listView = (ListView) findViewById(R.id.list);
