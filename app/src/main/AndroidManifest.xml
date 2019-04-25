@@ -9,8 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Search"
-                  android:label="@string/search_label"/>
+        <activity
+            android:name=".Search"
+            android:label="@string/search_label">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.osama.mediaplayer.MainActivity" />
+        </activity>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -20,16 +25,34 @@
         </activity>
         <activity
             android:name=".AllSong"
-            android:label="@string/All_Song" />
+            android:label="@string/All_Song">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.osama.mediaplayer.MainActivity" />
+        </activity>
+
         <activity
             android:name=".Arabic"
-            android:label="@string/Arabic" />
+            android:label="@string/Arabic">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.osama.mediaplayer.MainActivity" />
+
+        </activity>
         <activity
             android:name=".English"
-            android:label="@string/English" />
+            android:label="@string/English">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.osama.mediaplayer.MainActivity" />
+        </activity>
         <activity
             android:name=".Classic"
-            android:label="@string/Classic" />
+            android:label="@string/Classic">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.osama.mediaplayer.MainActivity" />
+        </activity>
 
     </application>
 
