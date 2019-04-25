@@ -9,6 +9,6 @@
         android:layout_gravity="center"
         android:gravity="center"
         android:text="@string/search_results"
-        android:textSize="35sp" />
+        android:textSize="@dimen/NoResults_text_size" />
 
 </LinearLayout>

@@ -1,19 +1,11 @@
 <resources>
-    <!-- Primary color of the app (shown in the app bar) -->
+
     <color name="primary_color">#000000</color>
-
-    <!-- Primary dark color of the app (shown in the status bar) -->
     <color name="primary_dark_color">#000000</color>
-
     <color name="main_cat_text_color1">#FFFFFF</color>
-
     <color name="main_cat_text_color2">#000000</color>
-
     <color name="edit_text_color">#000000</color>
-
     <color name="list_item_texts">#BDBDBD</color>
-
     <color name="list_item_background">#000000</color>
-
 
 </resources>

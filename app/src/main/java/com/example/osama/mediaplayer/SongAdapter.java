@@ -20,7 +20,7 @@ public class SongAdapter extends ArrayAdapter<Song> {
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
-        // Check if an existing view is being reused, otherwise inflate the view
+
         View listItemView = convertView;
         if (listItemView == null) {
             listItemView = LayoutInflater.from(getContext()).inflate(
